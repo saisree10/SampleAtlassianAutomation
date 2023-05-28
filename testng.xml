@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Demo Suite" verbose="1">
+    <test name="tests">
+    <!--    <parameter name="browser" value="Chrome"/>  -->
+        <classes>
+              <class name="com.test.runner.CucumberRunnerTests"/>
+              <class name="com.testapp.ebay.eBay_Automation.LoginPageDefinitions"/>
+          <!--    <class name="com.testapp.ebay.eBay_Automation.SearchWithFilterPageDefinitions"/>  -->
+               <!-- 
+                <methods>
+                    <include name="testMethodName"></include>
+                </methods>    -->
+            
+        </classes>
+    </test>
+</suite>
